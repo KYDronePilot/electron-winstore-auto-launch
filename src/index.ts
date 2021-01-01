@@ -34,7 +34,7 @@ export class WindowsStoreAutoLaunch {
                 }
             }
 
-            return appModel || require('@nodert-win10-au/windows.applicationmodel')
+            return appModel || require('@nodert-win10-rs3/windows.applicationmodel')
         } catch (error) {
             if (reject) {
                 return reject(error)
