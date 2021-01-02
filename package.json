@@ -1,6 +1,6 @@
 {
     "name": "@kydronepilot/electron-winstore-auto-launch",
-    "version": "3.0.0-beta4",
+    "version": "3.0.0-beta5",
     "description": "Configure your Electron to start automatically when the user logs in",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
