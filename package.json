@@ -1,40 +1,45 @@
 {
-  "name": "electron-winstore-auto-launch",
-  "version": "2.0.3",
-  "description": "Configure your Electron to start automatically when the user logs in Edit",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "dependencies": {
-    "@nodert-win10-rs3/windows.applicationmodel": "^0.4.4"
-  },
-  "scripts": {
-    "build": "tsc -p .",
-    "prepublish": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/felixrieseberg/electron-winstore-auto-launch.git"
-  },
-  "keywords": [
-    "windows",
-    "winrt",
-    "nodert",
-    "winstore",
-    "store",
-    "autolaunch",
-    "launch",
-    "login",
-    "electron",
-    "nw"
-  ],
-  "author": "Felix Rieseberg <felix@felix.fun> (https://felixrieseberg.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/felixrieseberg/electron-winstore-auto-launch/issues"
-  },
-  "homepage": "https://github.com/felixrieseberg/electron-winstore-auto-launch#readme",
-  "devDependencies": {
-    "@types/node": "^14.0.13",
-    "typescript": "^3.9.5"
-  }
+    "name": "@kydronepilot/electron-winstore-auto-launch",
+    "version": "3.0.0-beta1",
+    "description": "Configure your Electron to start automatically when the user logs in",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc -p ."
+    },
+    "files": [
+        "lib"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KYDronePilot/electron-winstore-auto-launch.git"
+    },
+    "author": {
+        "name": "Michael Galliers",
+        "email": "kydronepilotdev@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/felixrieseberg/electron-winstore-auto-launch/issues"
+    },
+    "keywords": [
+        "windows",
+        "winrt",
+        "nodert",
+        "winstore",
+        "store",
+        "autolaunch",
+        "launch",
+        "login",
+        "electron",
+        "nw"
+    ],
+    "homepage": "https://github.com/KYDronePilot/electron-winstore-auto-launch",
+    "devDependencies": {
+        "@types/node": "^14.0.13",
+        "typescript": "^3.9.5"
+    },
+    "dependencies": {
+        "@nodert-win10-rs3/windows.applicationmodel": "^0.4.4"
+    }
 }
